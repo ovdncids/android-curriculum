@@ -51,3 +51,9 @@ src/main/res/values/styles.xml
 + <style name="CustomActionBarTheme" parent="@android:style/Theme.Holo.Light">
 ```
 * `@android:style/Theme.Holo.Light` 추가 하면 `bottom 그림자`가 추가 된다.
+
+```diff
+- <style name="CustomActionBarTheme">
++ <style name="CustomActionBarTheme" parent="@android:style/Widget.Button">
+```
+* `@android:style/Widget.Button` 추가 하면 `button 형식`의 레이아웃을 볼 수 있다.
