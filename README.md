@@ -12,7 +12,7 @@ src/main/res/layout/activity_main.xml
 res > New > Vetor Asset > Clip Art > 검색 후 Next, Finish > 아이콘 파일 생성
 ```
 
-## 상단 스타일 바꾸기 (ActionBarStyle)
+## 상단 스타일 바꾸기 (ActionBarTheme)
 * https://stackoverflow.com/questions/5861661/actionbar-text-color
 
 src/main/res/values/themes.xml
@@ -42,7 +42,12 @@ src/main/res/values/styles.xml
         <item name="android:textSize">32dp</item>
         <item name="android:textStyle">bold|italic</item>
         <item name="android:textColor">@color/black</item>
-        <item name="android:textAlignment">center</item>
     </style>
 </resources>
 ```
+
+```diff
+- <style name="CustomActionBarTheme">
++ <style name="CustomActionBarTheme" parent="@android:style/Theme.Holo.Light">
+```
+* `@android:style/Theme.Holo.Light` 추가 하면 `bottom 그림자`가 추가 된다.
