@@ -57,3 +57,12 @@ src/main/res/values/styles.xml
 + <style name="CustomActionBarTheme" parent="@android:style/Widget.Button">
 ```
 * `@android:style/Widget.Button` 추가 하면 `button 형식`의 레이아웃을 볼 수 있다.
+
+## RadioButton text없이 가운데 정렬
+```xml
+<RadioButton
+    android:minWidth="0dp"
+    android:minHeight="0dp"
+    android:layout_gravity="center"
+/>
+```
