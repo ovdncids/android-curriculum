@@ -12,6 +12,15 @@ src/main/res/layout/activity_main.xml
 res > New > Vetor Asset > Clip Art > 검색 후 Next, Finish > 아이콘 파일 생성
 ```
 
+## 아이콘 버튼
+```xml
+<ImageButton
+    android:src="@android:drawable/ic_menu_edit"
+    app:tint="@color/black"
+/>
+```
+* ❕ `@android:drawable/ic_menu_edit` `Ctrl + 클릭`하면 더 많은 아이콘을 볼 수 있다.
+
 ## 상단 스타일 바꾸기 (ActionBarTheme)
 * https://stackoverflow.com/questions/5861661/actionbar-text-color
 
