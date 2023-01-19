@@ -16,6 +16,7 @@ res > New > Vetor Asset > Clip Art > 검색 후 Next, Finish > 아이콘 파일 
 ```xml
 <ImageButton
     android:src="@android:drawable/ic_menu_edit"
+    android:rotation="180"
     app:tint="@color/black"
 />
 ```
