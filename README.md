@@ -17,10 +17,13 @@ res > New > Vetor Asset > Clip Art > 검색 후 Next, Finish > 아이콘 파일 
 <ImageButton
     android:src="@android:drawable/ic_menu_edit"
     android:rotation="180"
+    android:background="#00FF0000"
     app:tint="@color/black"
 />
 ```
-* ❕ `@android:drawable/ic_menu_edit` `Ctrl + 클릭`하면 더 많은 아이콘을 볼 수 있다.
+* `#00FF0000` 투명
+* `@android:drawable/ic_menu_edit` `Ctrl + 클릭`하면 더 많은 아이콘을 볼 수 있다.
+* `Layout 파일`에서 Design > Palette > Widgets > ImageView를 화면에 놓으면 아이콘을 선택 할 수 있는 창(Pick a Resource)이 뜬다.
 
 ## 상단 스타일 바꾸기 (ActionBarTheme)
 * https://stackoverflow.com/questions/5861661/actionbar-text-color
